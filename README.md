@@ -1,3 +1,4 @@
+![logo](dev.jpg)
 <h1 align="center">Hi everyone, I'm Devakuamr A</h1>
 <h3 align="center">A passionate frontend developer</h3>
 <hr>
