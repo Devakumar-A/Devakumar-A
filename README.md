@@ -1,5 +1,6 @@
 <h1 align="center">Hi everyone, I'm Devakuamr A</h1>
 <h3 align="center">A passionate frontend developer</h3>
+<hr>
 <img align="right" alt="coding" width="400" src="https://media.giphy.com/media/ko7twHhomhk8E/giphy.gif">
 
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=devakumara&label=Profile%20views&color=0e75b6&style=flat" alt="devakumara" /> </p>
