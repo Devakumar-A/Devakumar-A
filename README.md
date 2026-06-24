@@ -1,22 +1,118 @@
-![logo](deva.jpg)
-<h1 align="center">Hi everyone, I'm Devakuamr A</h1>
-<h3 align="center">A passionate frontend developer</h3>
-<hr>
-<img align="right" alt="coding" width="400" src="https://media.giphy.com/media/ko7twHhomhk8E/giphy.gif">
+<div align="center">
 
-<p align="left"> <img src="https://komarev.com/ghpvc/?username=devakumara&label=Profile%20views&color=0e75b6&style=flat" alt="devakumara" /> </p>
+# 👋 Hi, I'm Devakumar A
 
-- 🌱 I’m currently learning **frontend development**
+### 🚀 AI Researcher • Full Stack Developer • President, Mathoria Maths Club
 
-- 📫 How to reach me **devak9391@gmail.com**
+<img src="https://readme-typing-svg.demolab.com?font=Poppins&size=24&duration=3000&pause=1000&center=true&vCenter=true&width=700&lines=Computer+Science+Engineering+Student;AI+Researcher+%7C+Full+Stack+Developer;President+of+Mathoria+Maths+Club;Passionate+about+AI%2C+ML+and+Innovation" />
 
-<h3 align="left">Connect with me:</h3>
-<p align="left">
-</p>
+</div>
 
-<h3 align="left">Languages and Tools:</h3>
-<p align="left"> <a href="https://www.w3schools.com/css/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg" alt="css3" width="40" height="40"/> </a> <a href="https://www.w3.org/html/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg" alt="html5" width="40" height="40"/> </a> <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" alt="javascript" width="40" height="40"/> </a> </p>
+---
 
-<p><img align="center" src="https://github-readme-stats.vercel.app/api/top-langs?username=Devakumar-A&show_icons=true&locale=en&layout=compact" alt="Devakumar-A" /></p>
+## 🌟 About Me
 
+🎓 B.Tech Computer Science Engineering Student
 
+🏫 Rajiv Gandhi College of Engineering & Technology (RGCET), Puducherry
+
+👨‍💼 President – Mathoria Maths Club
+
+📚 Published Researcher
+
+💻 Full Stack Developer
+
+🧠 Passionate about Artificial Intelligence, Machine Learning, EEG Signal Processing and Modern Web Technologies
+
+---
+
+## 🏆 Achievements
+
+🥇 **Top Rank – Deep Learning Course (IIT Ropar)**
+
+🏅 **Gold + Elite Certificate – IIT Ropar**
+
+🥈 **Silver + Elite Certificate – Python for Data Science**
+
+👨‍💼 President – Mathoria Maths Club
+
+📄 Research Publication in AI Domain
+
+---
+
+## 🔬 Research Interests
+
+* Artificial Intelligence
+* Machine Learning
+* Deep Learning
+* EEG Signal Processing
+* Human Emotion Recognition
+* Healthcare AI
+
+---
+
+## 🚀 Featured Projects
+
+### 🧠 Emotion Recognition using EEG and AI
+
+Research-based system for emotion detection and communication assistance using EEG signals and deep learning.
+
+### 📚 Automated Library Management System
+
+Smart library automation platform for educational institutions.
+
+### 📈 Stock Price Prediction System
+
+Machine learning application for forecasting stock trends.
+
+### 🌐 Mathoria Club Website
+
+Official digital platform for Mathematics Club activities and events.
+
+### 🤖 Telegram Chatbot
+
+Interactive chatbot for club announcements and engagement.
+
+---
+
+## 💻 Tech Stack
+
+### Programming Languages
+
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge\&logo=python\&logoColor=white)
+![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge\&logo=openjdk\&logoColor=white)
+![C](https://img.shields.io/badge/C-00599C?style=for-the-badge\&logo=c\&logoColor=white)
+
+### Frontend
+
+![HTML5](https://img.shields.io/badge/HTML-E34F26?style=for-the-badge\&logo=html5\&logoColor=white)
+![CSS3](https://img.shields.io/badge/CSS-1572B6?style=for-the-badge\&logo=css3\&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge\&logo=javascript\&logoColor=black)
+![React](https://img.shields.io/badge/React-20232A?style=for-the-badge\&logo=react\&logoColor=61DAFB)
+
+### Backend & Database
+
+![Firebase](https://img.shields.io/badge/Firebase-FFCA28?style=for-the-badge\&logo=firebase\&logoColor=black)
+![SQL](https://img.shields.io/badge/SQL-336791?style=for-the-badge)
+
+---
+
+## 📊 GitHub Statistics
+
+![GitHub Stats](https://github-readme-stats.vercel.app/api?username=Devakumar-A\&show_icons=true\&theme=tokyonight)
+
+![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=Devakumar-A\&layout=compact\&theme=tokyonight)
+
+![GitHub Streak](https://streak-stats.demolab.com?user=Devakumar-A\&theme=tokyonight)
+
+---
+
+## 🌐 Connect With Me
+
+* LinkedIn: YOUR_LINKEDIN_URL
+* Email: YOUR_EMAIL
+* GitHub: https://github.com/Devakumar-A
+
+---
+
+### ⭐ “Building technology that creates impact.”
