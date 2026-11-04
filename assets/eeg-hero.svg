@@ -1,0 +1,73 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 320" width="1000" height="320" role="img" aria-labelledby="t d">
+  <title id="t">Devakumar A - AI Researcher, EEG and Brain-Computer Interface</title>
+  <desc id="d">Animated banner with a pulsing EEG waveform and a rotating three-ring orbit.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#05050f"/>
+      <stop offset="0.5" stop-color="#0b0b2e"/>
+      <stop offset="1" stop-color="#05050f"/>
+    </linearGradient>
+    <linearGradient id="name" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#00d4ff"/>
+      <stop offset="1" stop-color="#7b68ee"/>
+    </linearGradient>
+    <radialGradient id="orb" cx="35%" cy="30%" r="75%">
+      <stop offset="0" stop-color="#ffffff"/>
+      <stop offset="0.25" stop-color="#00d4ff"/>
+      <stop offset="1" stop-color="#1a1a6e"/>
+    </radialGradient>
+    <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="3" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M40 0H0V40" fill="none" stroke="#00d4ff" stroke-opacity="0.07"/>
+    </pattern>
+  </defs>
+
+  <rect width="1000" height="320" fill="url(#bg)"/>
+  <rect width="1000" height="320" fill="url(#grid)"/>
+
+  <!-- 3D orbit rig -->
+  <g transform="translate(840 130)">
+    <g filter="url(#glow)" fill="none" stroke-width="2">
+      <ellipse rx="120" ry="38" stroke="#00d4ff" stroke-opacity="0.9">
+        <animateTransform attributeName="transform" type="rotate" from="0" to="360" dur="9s" repeatCount="indefinite"/>
+      </ellipse>
+      <ellipse rx="120" ry="38" stroke="#7b68ee" stroke-opacity="0.9" transform="rotate(60)">
+        <animateTransform attributeName="transform" type="rotate" from="60" to="420" dur="12s" repeatCount="indefinite"/>
+      </ellipse>
+      <ellipse rx="120" ry="38" stroke="#ffd700" stroke-opacity="0.8" transform="rotate(120)">
+        <animateTransform attributeName="transform" type="rotate" from="120" to="-240" dur="15s" repeatCount="indefinite"/>
+      </ellipse>
+    </g>
+    <circle r="34" fill="url(#orb)" filter="url(#glow)">
+      <animate attributeName="r" values="32;37;32" dur="3s" repeatCount="indefinite"/>
+    </circle>
+    <circle r="5" fill="#ffd700">
+      <animateMotion dur="4s" repeatCount="indefinite" path="M-120,0 A120,38 0 1,1 120,0 A120,38 0 1,1 -120,0"/>
+    </circle>
+  </g>
+
+  <!-- name -->
+  <text x="48" y="118" font-family="'JetBrains Mono','Fira Code',Consolas,monospace" font-size="62" font-weight="800" fill="url(#name)" filter="url(#glow)" letter-spacing="2">
+    DEVAKUMAR A
+    <animate attributeName="opacity" from="0" to="1" dur="1.4s" fill="freeze"/>
+  </text>
+  <text x="50" y="158" font-family="'JetBrains Mono',Consolas,monospace" font-size="19" fill="#9aa0ff" letter-spacing="1">
+    AI Researcher  /  Scopus Author  /  Full Stack Developer
+  </text>
+  <text x="50" y="188" font-family="'JetBrains Mono',Consolas,monospace" font-size="14" fill="#5f6bd0">
+    EEG  .  Brain-Computer Interface  .  Healthcare AI  .  Puducherry, India
+  </text>
+
+  <!-- EEG waveform -->
+  <g fill="none" stroke-linejoin="round" stroke-linecap="round">
+    <path d="M0,262 L80,262 L100,252 L120,274 L140,262 L220,262 L240,214 L260,296 L280,262 L380,262 L400,250 L420,270 L440,262 L560,262 L580,218 L600,294 L620,262 L720,262 L740,254 L760,270 L780,262 L1000,262"
+          stroke="#00d4ff" stroke-opacity="0.18" stroke-width="2"/>
+    <path d="M0,262 L80,262 L100,252 L120,274 L140,262 L220,262 L240,214 L260,296 L280,262 L380,262 L400,250 L420,270 L440,262 L560,262 L580,218 L600,294 L620,262 L720,262 L740,254 L760,270 L780,262 L1000,262"
+          pathLength="100" stroke="#00d4ff" stroke-width="3" filter="url(#glow)" stroke-dasharray="30 70">
+      <animate attributeName="stroke-dashoffset" from="100" to="0" dur="3.2s" repeatCount="indefinite"/>
+    </path>
+  </g>
+</svg>

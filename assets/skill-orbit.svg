@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 420" width="1000" height="420" role="img" aria-labelledby="t d">
+  <title id="t">Devakumar A - skill orbit</title>
+  <desc id="d">Three animated orbits carrying AI, research and full stack skills around a central core.</desc>
+  <defs>
+    <radialGradient id="core" cx="35%" cy="30%" r="75%">
+      <stop offset="0" stop-color="#fff"/>
+      <stop offset="0.3" stop-color="#00d4ff"/>
+      <stop offset="1" stop-color="#1a1a6e"/>
+    </radialGradient>
+    <filter id="g" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="3" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#05050f"/>
+      <stop offset="1" stop-color="#0b0b2e"/>
+    </linearGradient>
+  </defs>
+  <rect width="1000" height="420" fill="url(#bg)"/>
+
+  <g transform="translate(500 210)" font-family="'JetBrains Mono',Consolas,monospace" font-size="15" font-weight="700" text-anchor="middle">
+    <!-- orbit rails -->
+    <ellipse rx="150" ry="50" fill="none" stroke="#00d4ff" stroke-opacity="0.35"/>
+    <ellipse rx="270" ry="90" fill="none" stroke="#7b68ee" stroke-opacity="0.35"/>
+    <ellipse rx="400" ry="140" fill="none" stroke="#ffd700" stroke-opacity="0.3"/>
+
+    <!-- core -->
+    <circle r="40" fill="url(#core)" filter="url(#g)">
+      <animate attributeName="r" values="38;44;38" dur="3s" repeatCount="indefinite"/>
+    </circle>
+    <text y="6" fill="#05050f" font-size="16">EEG</text>
+
+    <!-- inner orbit -->
+    <g fill="#00d4ff" filter="url(#g)">
+      <text><animateMotion dur="10s" begin="0s" repeatCount="indefinite" path="M-150,0 A150,50 0 1,1 150,0 A150,50 0 1,1 -150,0"/>Python</text>
+      <text><animateMotion dur="10s" begin="-5s" repeatCount="indefinite" path="M-150,0 A150,50 0 1,1 150,0 A150,50 0 1,1 -150,0"/>TensorFlow</text>
+    </g>
+    <!-- middle orbit -->
+    <g fill="#9a8cff" filter="url(#g)">
+      <text><animateMotion dur="16s" begin="0s" repeatCount="indefinite" path="M270,0 A270,90 0 1,1 -270,0 A270,90 0 1,1 270,0"/>Deep Learning</text>
+      <text><animateMotion dur="16s" begin="-5.3s" repeatCount="indefinite" path="M270,0 A270,90 0 1,1 -270,0 A270,90 0 1,1 270,0"/>Signal Processing</text>
+      <text><animateMotion dur="16s" begin="-10.6s" repeatCount="indefinite" path="M270,0 A270,90 0 1,1 -270,0 A270,90 0 1,1 270,0"/>BCI</text>
+    </g>
+    <!-- outer orbit -->
+    <g fill="#ffd700" filter="url(#g)">
+      <text><animateMotion dur="24s" begin="0s" repeatCount="indefinite" path="M-400,0 A400,140 0 1,1 400,0 A400,140 0 1,1 -400,0"/>React</text>
+      <text><animateMotion dur="24s" begin="-6s" repeatCount="indefinite" path="M-400,0 A400,140 0 1,1 400,0 A400,140 0 1,1 -400,0"/>Firebase</text>
+      <text><animateMotion dur="24s" begin="-12s" repeatCount="indefinite" path="M-400,0 A400,140 0 1,1 400,0 A400,140 0 1,1 -400,0"/>MySQL</text>
+      <text><animateMotion dur="24s" begin="-18s" repeatCount="indefinite" path="M-400,0 A400,140 0 1,1 400,0 A400,140 0 1,1 -400,0"/>Healthcare AI</text>
+    </g>
+  </g>
+</svg>
