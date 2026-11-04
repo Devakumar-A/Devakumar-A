@@ -168,12 +168,13 @@ Club portal with event management, leaderboards and member engagement.
 
 <div align="center">
 
-<img height="180" src="https://github-readme-stats.vercel.app/api?username=Devakumar-A&show_icons=true&theme=tokyonight&include_all_commits=true&count_private=true&hide_border=true&title_color=00D4FF&icon_color=7B68EE" alt="Devakumar A GitHub stats"/>
-<img height="180" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Devakumar-A&layout=compact&theme=tokyonight&hide_border=true&title_color=00D4FF" alt="Devakumar A top languages"/>
+<img height="190" src="profile-summary-card-output/tokyonight/3-stats.svg" alt="Devakumar A GitHub stats"/>
+<img height="190" src="profile-summary-card-output/tokyonight/2-most-commit-language.svg" alt="Devakumar A most used languages by commits"/>
+
+<img height="190" src="profile-summary-card-output/tokyonight/1-repos-per-language.svg" alt="Devakumar A repositories per language"/>
+<img height="190" src="profile-summary-card-output/tokyonight/4-productive-time.svg" alt="Devakumar A productive time of day"/>
 
 <img src="https://streak-stats.demolab.com?user=Devakumar-A&theme=tokyonight&hide_border=true&ring=00D4FF&fire=FF6B6B&currStreakLabel=00D4FF" alt="Devakumar A GitHub streak"/>
-
-<img width="100%" src="https://github-readme-activity-graph.vercel.app/graph?username=Devakumar-A&theme=tokyo-night&hide_border=true&area=true&color=00D4FF&line=7B68EE&point=FFD700" alt="Devakumar A GitHub activity graph"/>
 
 </div>
 
